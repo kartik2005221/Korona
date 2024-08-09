@@ -43,7 +43,7 @@ def main():
         speaker_choice = random.choice(CHOICES)
         display_message("Speaker says: Aroygya...", (SCREEN_WIDTH//2 - 100, SCREEN_HEIGHT//2 - 50))
         pygame.display.flip()
-        time.sleep(3)  # 3-second thinking time
+        time.sleep(5)  # 3-second thinking time
 
         # Thinker's choice
         thinker_choice = random.choice(CHOICES)
